@@ -1,7 +1,16 @@
 new Vue({
   el: "#app",
   data: {
-    list: ['Hamburger With No Pickles','Hamburger With Pickles','Hamburger With Tomato','Hamburger With Ketchup','Hamburger With Extra Pickles','Hamburger With Grilled Onions','Hamburger with Cheese'],
+    list: ['Veggie Burger With Spicy Mayo',
+    'Veggie Burger With Fried Onions',
+    'Veggie Burger With Roasted Tomato',
+    'Veggie Burger With Sauteed Mushrooms',
+    'Veggie Burger With Extra Pickles',
+    'Veggie Burger With Garlic Aioli',
+    'Veggie Burger With Brie',
+    'Veggie Burger With No Cheese',
+    'Veggie Burger',
+    'Veggie Burger With Guacamole'],
     renderTemplate: ''
   },
   methods: {
