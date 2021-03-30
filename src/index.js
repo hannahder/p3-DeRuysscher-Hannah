@@ -2,12 +2,12 @@ new Vue({
   el: "#app",
   data: {
     list: ['Hamburger With No Pickles','Hamburger With Pickles','Hamburger With Tomato','Hamburger With Ketchup','Hamburger With Extra Pickles','Hamburger With Grilled Onions','Hamburger with Cheese'],
-    chosenName: ''
+    renderTemplate: ''
   },
   methods: {
     picker: function(){
-      var chosenNumber = Math.floor(Math.random() * this.list.length);
-      this.chosenName = this.list[chosenNumber];
+      const randomLunches = Math.floor(Math.random() * this.list.length);
+      this.renderTemplate = this.list[randomLunches];
     }
 }
 });
