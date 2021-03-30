@@ -50,3 +50,37 @@ button{
   font-family: 'Amatic SC', cursive;
   background-color: inherit;
 }
+
+@media (max-width: 1550px) {
+  #app {
+    flex-direction: column;
+  }
+
+  #right, #left {
+    height: 750px;
+    padding-top: 80px;
+  }
+
+  img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 635px) {
+  #app {
+    flex-direction: column;
+  }
+
+  #right, #left {
+    height: 450px;
+    padding-top: 40px;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  button, p {
+    font-size: 2.5rem;
+  }
+}
