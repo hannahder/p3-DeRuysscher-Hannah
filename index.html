@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Pick Your Lunch</title>
+
+    <!-- Main CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <div id="app">
+      <section id="left">
+      <button @click="picker">ORDER</button>
+      <div class="image">
+      <img src="images/truck.png" />
+      </div>
+      </section>
+      <section id="right">
+      <p>{{chosenName}}</p>
+      <img src="images/hamburger.png" />
+      </section>
+
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
