@@ -51,6 +51,10 @@ button{
   background-color: inherit;
 }
 
+#burger {
+  display: none;
+}
+
 @media (max-width: 1550px) {
   #app {
     flex-direction: column;
